@@ -1,0 +1,22 @@
+{
+    "author": "Javier Delgado",
+    "description": "PiotrButton broadcasts an event to all of the connected clients.",
+    "dependencies": {
+        "ws": "^5.1.1"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-eslint": "^8.2.2",
+        "babel-preset-es2015-node5": "^1.2.0",
+        "babel-preset-stage-3": "^6.24.1",
+        "babel-register": "^6.26.0"
+    },
+    "license": "GPL-3.0",
+    "main": "main.js",
+    "name": "piotrbutton-server",
+    "scripts": {
+        "start": "babel-node src/main.js"
+    },
+    "version": "1.0.0"
+}
